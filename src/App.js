@@ -2,8 +2,10 @@ import './App.css';
 
 function App() {
  return (
-  <div className="app">
-   <h1 className='text-center font-bold text-8xl'>Hello World</h1>
+  <div className='font-bellefair box-border'>
+   {/* Navbar */}
+   {/* Homepage */}
+   {/* TODO: Figure out how to do routing, either by using javascript of by some library */}
   </div>
  );
 }
