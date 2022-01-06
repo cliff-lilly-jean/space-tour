@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import Destination from './components/Destination';
-import Crew from './components/Crew';
-import Technology from './components/Technology';
+import Home from './components/Home/Home';
+import Destination from './components/Destination/Destination';
+import Crew from './components/Crew/Crew';
+import Technology from './components/Technology/Technology';
 
 function App() {
  return (
