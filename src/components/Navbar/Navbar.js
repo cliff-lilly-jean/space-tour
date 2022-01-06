@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../../assets/imgs/shared/logo.png";
 
 const Navbar = () => {
  return (
-  <nav className='navbar flex justify-between w-[1385px]'>
+  <nav className='navbar flex justify-between w-[1385px] mt-14'>
    <div className="nav__left w-[48] h-[48]">
-    <img src={require("../../assets/imgs/shared/logo.png")} alt="" />
+    <img src={logo} alt="the space app logo" />
    </div>
    <div className="nav__right flex  w[900px] text-white p-3">
     <Link to="/">Home</Link>
