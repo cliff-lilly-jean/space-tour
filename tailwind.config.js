@@ -3,6 +3,7 @@ module.exports = {
   "./src/**/*.{js,jsx,ts,tsx}",
  ],
  theme: {
+
   extend: {
    colors: {
     'primary': '#0B0D17',
@@ -20,9 +21,9 @@ module.exports = {
     h4: '32px',
     h5: '28px'
    },
-   spacing: {
-    'h5-spacing': '4.75px'
-   }
+   letterSpacing: {
+    "h5-tracking": "4.72px"
+   },
   },
  },
  plugins: [],
