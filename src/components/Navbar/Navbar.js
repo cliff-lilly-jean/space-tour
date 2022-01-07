@@ -4,15 +4,17 @@ import logo from "../../assets/imgs/shared/logo.png";
 
 const Navbar = () => {
  return (
-  <nav className='navbar flex justify-between w-[1385px] mt-14'>
-   <div className="nav__left w-[48] h-[48]">
-    <img src={logo} alt="the space app logo" />
-   </div>
-   <div className="nav__right flex  w[900px] text-white p-3">
-    <Link to="/">Home</Link>
-    <Link to="/destination">Destination</Link>
-    <Link to="/crew">Crew</Link>
-    <Link to="/technology">Technology</Link>
+  <nav className='navbar w-full mt-6'>
+   <div className="navbar__container flex flex-col md:flex-row justify-between items-center w-full">
+    <div className="nav__left w-[48] h-[48]">
+     <img src={logo} alt="the space app logo" />
+    </div>
+    <div className="nav__right flex  w[900px] pt-6 pb-6 pl-[100px] pr-[100px] text-white p-3 backdrop-blur-md">
+     <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/">00 Home</Link>
+     <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/destination">01 Destination</Link>
+     <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/crew">02 Crew</Link>
+     <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/technology">03 Technology</Link>
+    </div>
    </div>
   </nav>
  );
