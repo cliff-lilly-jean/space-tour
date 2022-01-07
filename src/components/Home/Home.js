@@ -15,7 +15,7 @@ const Home = () => {
      <h1 className='text-white text-[80px] md:text-h1'>SPACE</h1>
      <p className='text-secondary text-[15px] max-w-[380px] ml-auto mr-auto md:text-[16px] md:max-w-[24em] lg:text-lg leading-8'>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
     </div>
-    <div className="container__right mb-0 w-[150px] md:w-[150px] lg:w-[274px] hover:cursor-pointer">
+    <div className="container__right mb-0 w-[150px] md:w-[150px] lg:w-[274px] hover:cursor-pointer hover:shadow-exploreShadow rounded-full">
      <img src={exploreIcon} alt="A circle with the word explore in the center" />
     </div>
    </div>

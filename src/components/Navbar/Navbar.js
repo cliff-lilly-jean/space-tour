@@ -18,7 +18,7 @@ const Navbar = () => {
       <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/crew"><span className='hidden lg:inline-block'>02</span> Crew</Link>
       <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/technology"><span className='hidden lg:inline-block'>03</span> Technology</Link>
      </div>
-     <div className="nav__hamburger md:hidden hover:cursor-pointer">
+     <div className="nav__hamburger md:hidden">
       <img src={hamburgerNav} alt="" />
      </div>
     </div>
