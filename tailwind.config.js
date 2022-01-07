@@ -24,6 +24,9 @@ module.exports = {
    letterSpacing: {
     "h5-tracking": "4.72px"
    },
+   screens: {
+    'mdLg': '1140px'
+   }
   },
  },
  plugins: [],

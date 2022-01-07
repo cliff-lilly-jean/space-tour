@@ -10,7 +10,8 @@ const Navbar = () => {
     <div className="nav__left w-[48] pl-9">
      <img src={logo} alt="the space app logo" />
     </div>
-    <div className="nav__right flex w[900px] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] text-white p-3 md:backdrop-blur-lg">
+    <div className="nav__right flex w[900px] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] text-white p-3 md:backdrop-blur-3xl lg:pr-14 lg:pl-14 relative">
+     <div className="nav__line hidden mdLg:block mdLg:absolute mdLg:max-w-[60%] mdLg:bg-[#8f8f8f] mdLg:h-[1px] mdLg:-left-[55%] mdLg:right-0 mdLg:bottom-[2.25em]"></div>
      <div className="nav__links hidden md:block">
       <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/"><span className='hidden lg:inline-block'>00</span> Home</Link>
       <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/destination"><span className='hidden lg:inline-block'>01</span> Destination</Link>
