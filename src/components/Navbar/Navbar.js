@@ -4,6 +4,7 @@ import logo from "../../assets/imgs/shared/logo.png";
 import hamburgerNav from "../../assets/imgs/shared/icon-hamburger.svg";
 
 const Navbar = () => {
+ // todo: create the hover and active states on the navbar
  return (
   <nav className='navbar w-full mt-8 mb-8 md:mt-0 lg:mt-8'>
    <div className="navbar__container flex flex-row justify-between items-center w-full">

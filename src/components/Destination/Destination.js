@@ -2,17 +2,14 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import { pageData } from '../../data/data';
 
+// css
+import './Destination.css';
+
 const Destination = () => {
  return (
-  <div className='destination'>
+  <div className='destination flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen'>
    <Navbar />
-   <p>Destination</p>
-   {/* loop through the pageData.destinations array and for each entry */}
-   {/* display the name, image and description in a component Destinations */}
-   <p>{pageData.destinations[0].name}</p>
-   <p>{pageData.destinations[0].description}</p>
-   {/* todo: find out how to  render the src tag with the pageData object data */}
-   <img src={pageData.destinations[0].images.webp} alt="" />
+
   </div>
  );
 };
