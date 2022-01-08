@@ -3,23 +3,26 @@ import { Link } from 'react-router-dom';
 import logo from "../../assets/imgs/shared/logo.png";
 import hamburgerNav from "../../assets/imgs/shared/icon-hamburger.svg";
 
+// css
+import './Navbar.css';
+
 const Navbar = () => {
  // todo: create the hover and active states on the navbar
  return (
-  <nav className='navbar w-full mt-8 mb-8 md:mt-0 lg:mt-8'>
-   <div className="navbar__container flex flex-row justify-between items-center w-full">
-    <div className="nav__left w-[48] pl-9">
+  <nav className='navbar'>
+   <div className="navbar__container">
+    <div className="navbar__left">
      <img src={logo} alt="the space app logo" />
     </div>
-    <div className="nav__right flex w[900px] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] text-white p-3 md:backdrop-blur-3xl lg:pr-14 lg:pl-14 relative">
-     <div className="nav__line hidden mdLg:block mdLg:absolute mdLg:max-w-[60%] mdLg:bg-[#8f8f8f] mdLg:h-[1px] mdLg:-left-[55%] mdLg:right-0 mdLg:bottom-[2.25em]"></div>
-     <div className="nav__links hidden md:block">
-      <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/"><span className='hidden lg:inline-block'>00</span> Home</Link>
-      <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/destination"><span className='hidden lg:inline-block'>01</span> Destination</Link>
-      <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/crew"><span className='hidden lg:inline-block'>02</span> Crew</Link>
-      <Link className='pl-6 pr-6 font-barlow tracking-[2.75px]' to="/technology"><span className='hidden lg:inline-block'>03</span> Technology</Link>
+    <div className="navbar__right">
+     <div className="navbar__line"></div>
+     <div className="navbar__links ">
+      <Link className='navbar__link ' to="/"><span className='navbar__link-number '>00</span> Home</Link>
+      <Link className='navbar__link' to="/destination"><span className='navbar__link-number'>01</span> Destination</Link>
+      <Link className='navbar__link' to="/crew"><span className='navbar__link-number'>02</span> Crew</Link>
+      <Link className='navbar__link' to="/technology"><span className='navbar__link-number'>03</span> Technology</Link>
      </div>
-     <div className="nav__hamburger md:hidden">
+     <div className="navbar__hamburger">
       <img src={hamburgerNav} alt="" />
      </div>
     </div>

@@ -1,0 +1,35 @@
+.navbar {
+ @apply w-full mt-8 mb-8 md:mt-0 lg:mt-8
+}
+
+.navbar__container {
+ @apply flex flex-row justify-between items-center w-full
+}
+
+.navbar__left {
+ @apply w-[48] pl-9
+}
+
+.navbar__right {
+ @apply flex w-[900] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] md:backdrop-blur-3xl text-white p-3 lg:pr-14 lg:pl-14 relative
+}
+
+.navbar__line {
+ @apply hidden mdLg:block mdLg:absolute mdLg:max-w-[60%] mdLg:bg-[#8f8f8f] mdLg:h-[1px] mdLg:-left-[55%] mdLg:right-0 mdLg:bottom-[2.25em]
+}
+
+.navbar__links {
+ @apply hidden md:block
+}
+
+.navbar__link {
+ @apply pl-6 pr-6 font-barlow tracking-[2.75px]
+}
+
+.navbar__link-number {
+ @apply hidden lg:inline-block
+}
+
+.navbar__hamburger {
+ @apply md:hidden
+}

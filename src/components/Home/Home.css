@@ -1,4 +1,33 @@
 .home {
+ @apply flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen
+}
+
+.container {
+ @apply flex flex-col justify-between h-full items-center text-center lg:text-left lg:flex-row max-w-6xl p-5 m-auto
+}
+
+.home__left {
+ @apply mt-16 max-w-[327px] md:mt-0 md:mb-0 md:max-w-lg
+}
+
+.h5 {
+ @apply font-barlow text-[16px] md:text-[20px] lg:text-h5 text-secondary tracking-[4.72px]
+}
+
+.title {
+ @apply text-white text-[80px] md:text-h1
+}
+
+.sub-title {
+ @apply text-secondary text-[15px] max-w-[380px] ml-auto mr-auto md:text-[16px] md:max-w-[24em] lg:text-lg leading-8
+}
+
+.home__right {
+ @apply mb-0 w-[150px] md:w-[150px] lg:w-[274px] hover:cursor-pointer hover:shadow-exploreShadow hover:transition-all rounded-full
+}
+
+
+.home {
  background: url('../../assets/imgs/home/background-home-mobile.jpg') center no-repeat;
  background-size: cover;
  width: 100%;
