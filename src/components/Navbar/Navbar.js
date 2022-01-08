@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="navbar__left">
      <img src={logo} alt="the space app logo" />
     </div>
-    <div className="navbar__right">
+    <div className="navbar__right md:backdrop-blur-3xl">
      <div className="navbar__line"></div>
      <div className="navbar__links ">
       <Link className='navbar__link ' to="/"><span className='navbar__link-number '>00</span> Home</Link>

@@ -1,4 +1,13 @@
 .destination {
+ @apply flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen
+}
+
+
+
+
+
+
+.destination {
  background: url('../../assets/imgs/destination/background-destination-mobile.jpg') center no-repeat;
  background-size: cover;
  width: 100%;

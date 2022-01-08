@@ -11,7 +11,7 @@
 }
 
 .navbar__right {
- @apply flex w-[900] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] md:backdrop-blur-3xl text-white p-3 lg:pr-14 lg:pl-14 relative
+ @apply flex w-[900] pr-9 md:pt-7 md:pb-7 md:pl-[20px] md:pr-[20px] text-white p-3 lg:pr-14 lg:pl-14 relative
 }
 
 .navbar__line {

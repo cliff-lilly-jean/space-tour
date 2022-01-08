@@ -7,7 +7,7 @@ import './Destination.css';
 
 const Destination = () => {
  return (
-  <div className='destination flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen'>
+  <div className='destination'>
    <Navbar />
 
   </div>
