@@ -17,7 +17,12 @@ function App() {
      {/* Home */}
      <Route path="/" element={<Home />} />
      {/* Destination */}
-     <Route path="/destination" element={<Destination />} />
+     <Route path="/destination/*" element={<Destination />}>
+      <Route path="moon" element={<Moon />} />
+      <Route path="mars" element={<Mars />} />
+      <Route path="europa" element={<Europa />} />
+      <Route path="titan" element={<Titan />} />
+     </Route>
      {/* Crew */}
      <Route path="/crew" element={<Crew />} />
      {/* Technology */}

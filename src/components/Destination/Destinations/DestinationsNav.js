@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 function DestinationsNav() {
  return (
-  <div>
-   <Link to="/destination/moon">Moon</Link>
-   <Link to="/destination/mars">Moon</Link>
-   <Link to="/destination/europa">Moon</Link>
-   <Link to="/destination/titan">Moon</Link>
+  <div className='text-white'>
+   <Link to="moon">Moon</Link>
+   <Link to="mars">Mars</Link>
+   <Link to="europa">Europa</Link>
+   <Link to="titan">Titan</Link>
   </div>
  );
 }
