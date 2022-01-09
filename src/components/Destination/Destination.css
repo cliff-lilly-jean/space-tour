@@ -1,10 +1,6 @@
 .destination {
- @apply flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen
+ @apply flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen;
 }
-
-
-
-
 
 
 .destination {

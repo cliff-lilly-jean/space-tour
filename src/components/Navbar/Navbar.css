@@ -23,7 +23,7 @@
 }
 
 .navbar__link {
- @apply pl-6 pr-6 font-barlow tracking-[2.75px]
+ @apply pl-6 pr-6 font-barlow tracking-[2.75px] pb-7 hover:border-b-2
 }
 
 .navbar__link-number {

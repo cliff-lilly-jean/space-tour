@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className="navbar__right md:backdrop-blur-3xl">
      <div className="navbar__line"></div>
      <div className="navbar__links ">
-      <Link className='navbar__link ' to="/"><span className='navbar__link-number '>00</span> Home</Link>
+      <Link className='navbar__link' to="/"><span className='navbar__link-number '>00</span> Home</Link>
       <Link className='navbar__link' to="/destination"><span className='navbar__link-number'>01</span> Destination</Link>
       <Link className='navbar__link' to="/crew"><span className='navbar__link-number'>02</span> Crew</Link>
       <Link className='navbar__link' to="/technology"><span className='navbar__link-number'>03</span> Technology</Link>
