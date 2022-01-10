@@ -2,6 +2,14 @@
  @apply flex flex-col justify-between items-center md:pt-0 ml-auto mr-auto h-screen;
 }
 
+.destinations {
+ @apply max-w-md mt-1 mb-1
+}
+
+.destinations__link {
+ @apply pl-4 pr-4 text-[14px] font-barlow tracking-[2.75px] pb-2 hover:border-b-2 text-secondary
+}
+
 
 .destination {
  background: url('../../assets/imgs/destination/background-destination-mobile.jpg') center no-repeat;

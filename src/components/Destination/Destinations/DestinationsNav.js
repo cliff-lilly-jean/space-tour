@@ -1,13 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// css
+import '../Destination.css';
+
 function DestinationsNav() {
  return (
-  <div className='text-white'>
-   <Link to="moon">Moon</Link>
-   <Link to="mars">Mars</Link>
-   <Link to="europa">Europa</Link>
-   <Link to="titan">Titan</Link>
+  <div className='destinations text-white'>
+   <div className="destinations__links">
+    <Link className='destinations__link' to="/destination/moon">Moon</Link>
+    <Link className='destinations__link' to="/destination/mars">Mars</Link>
+    <Link className='destinations__link' to="/destination/europa">Europa</Link>
+    <Link className='destinations__link' to="/destination/titan">Titan</Link>
+   </div>
   </div>
  );
 }
