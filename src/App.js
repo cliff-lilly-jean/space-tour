@@ -8,6 +8,7 @@ import Moon from './components/Destination/Destinations/Moon';
 import Mars from './components/Destination/Destinations/Mars';
 import Europa from './components/Destination/Destinations/Europa';
 import Titan from './components/Destination/Destinations/Titan';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
  return (
