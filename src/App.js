@@ -12,7 +12,7 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
  return (
-  <div className='font-bellefair box-border'>
+  <div className='font-bellefair box-border antialiased'>
    <BrowserRouter>
     <Routes>
      {/* Home */}
