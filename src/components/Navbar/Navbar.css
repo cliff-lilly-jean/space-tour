@@ -1,5 +1,5 @@
 .navbar {
- @apply w-full mt-8 mb-8 md:mt-0 lg:mt-8
+ @apply w-full mt-8 mb-8 md:mt-0 lg:mt-14 lg:mb-14
 }
 
 .navbar__container {

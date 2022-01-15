@@ -3,7 +3,11 @@
 }
 
 .destinations {
- @apply max-w-md mt-1 mb-1
+ @apply max-w-md mt-1 mb-1 lg:mb-16
+}
+
+.destinations__links {
+ @apply lg:mb-11
 }
 
 .destinations__link {
