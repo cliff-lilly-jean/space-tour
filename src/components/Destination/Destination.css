@@ -3,11 +3,11 @@
 }
 
 .destinations {
- @apply max-w-md my-1 mx-auto md:mx-auto lg:mb-16
+ @apply max-w-md my-1 mx-auto md:mx-auto lg:mb-16 lg:mx-0
 }
 
 .destinations__links {
- @apply text-center lg:mb-11
+ @apply text-center lg:mb-11 lg:text-left
 }
 
 .destinations__link {
@@ -27,35 +27,35 @@
 }
 
 .destination__title {
- @apply text-6xl text-center text-white my-8 md:text-center md:text-[80px] md:my-10 lg:text-[100px]
+ @apply text-6xl text-center text-white my-8 md:text-center md:text-[80px] md:my-10 lg:text-[100px] lg:text-left
 }
 
 .destination__description {
- @apply text-center max-w-lg text-secondary text-[15px] my-8 md:text-base md:my-8 lg:text-[18px] lg:text-left lg:mt-16 lg:mb-16
+ @apply text-center max-w-lg text-secondary text-[15px] my-8 md:text-base md:my-8 lg:text-[18px] lg:text-left lg:my-8
 }
 
 .divider {
- @apply block m-auto mt-0 mb-3 border-b-[.5px] w-[75%] bg-[#383B4B] opacity-25 lg:m-0 lg:w-full
+ @apply block m-auto mt-0 mb-3 border-b-[.5px] w-[75%] bg-[#383B4B] opacity-25 lg:m-0 lg:w-full lg:mb-0
 }
 
 .destination__avgs {
- @apply my-8 md:flex md:w-96 md:justify-between md:items-center md:mx-auto md:my-4 lg:mt-16
+ @apply my-8 md:flex md:w-96 md:justify-between md:items-center md:mx-auto md:my-4 lg:mx-0 lg:my-8
 }
 
 .destination__avgs-distance {
- @apply text-secondary text-[14px] text-center md:text-sm
+ @apply text-secondary text-[14px] text-center md:text-sm lg:text-left
 }
 
 .destination__avgs-distance-value {
- @apply block mb-8 text-white text-center m-auto text-[26px] md:text-[28px] lg:my-4
+ @apply block mb-8 text-white text-center m-auto text-[26px] md:text-[28px] lg:my-3 lg:text-left
 }
 
 .destination__avgs-travel {
- @apply text-secondary text-[14px] text-center md:text-sm
+ @apply text-secondary text-[14px] text-center md:text-sm lg:text-left
 }
 
 .destination__avgs-travel-value {
- @apply block mb-8 text-[28px] text-white text-center m-auto md:text-[28px] lg:my-4
+ @apply block mb-8 text-[28px] text-white text-center m-auto md:text-[28px] lg:my-3 lg:text-left
 }
 
 .destination {
