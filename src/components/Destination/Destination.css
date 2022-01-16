@@ -47,7 +47,7 @@
 }
 
 .destination__avgs-distance-value {
- @apply block mb-8 text-white text-center m-auto text-[26px] md:text-[28px] lg:my-3 lg:text-left
+ @apply block mb-8 text-white text-center m-auto text-[26px] md:text-[28px] md:my-3 lg:text-left
 }
 
 .destination__avgs-travel {
@@ -55,7 +55,7 @@
 }
 
 .destination__avgs-travel-value {
- @apply block mb-8 text-[28px] text-white text-center m-auto md:text-[28px] lg:my-3 lg:text-left
+ @apply block mb-8 text-[28px] text-white text-center m-auto md:text-[28px] md:my-3 lg:text-left
 }
 
 .destination {
