@@ -3,17 +3,60 @@
 }
 
 .destinations {
- @apply max-w-md mt-1 mb-1 lg:mb-16
+ @apply max-w-md my-1 mx-auto md:mx-auto lg:mb-16
 }
 
 .destinations__links {
- @apply lg:mb-11
+ @apply text-center lg:mb-11
 }
 
 .destinations__link {
  @apply ml-4 mr-4 text-[14px] font-barlow tracking-[2.75px] pb-2 hover:border-b-2 text-secondary md:text-xl
 }
 
+.destination__location {
+ @apply flex flex-col items-center m-auto pl-5 pr-5 lg:flex-row lg:items-center lg:justify-between lg:max-w-7xl lg:h-full
+}
+
+.destination__pick-your-destination {
+ @apply my-8 text-secondary font-barlow tracking-[2.75px] text-center text-[16px] md:text-[20px] md:text-left md:block md:m-auto lg:text-3xl lg:mb-12
+}
+
+.planet-image__img {
+ @apply w-44 my-8 mx-auto md:mx-auto md:my-16 md:w-[300px] lg:w-[450px] lg:my-7
+}
+
+.destination__title {
+ @apply text-6xl text-center text-white my-8 md:text-center md:text-[80px] md:my-10 lg:text-[100px]
+}
+
+.destination__description {
+ @apply text-center max-w-lg text-secondary text-[15px] my-8 md:text-base md:my-8 lg:text-[18px] lg:text-left lg:mt-16 lg:mb-16
+}
+
+.divider {
+ @apply block m-auto mt-0 mb-3 border-b-[.5px] w-[75%] bg-[#383B4B] opacity-25 lg:m-0 lg:w-full
+}
+
+.destination__avgs {
+ @apply my-8 md:flex md:w-96 md:justify-between md:items-center md:mx-auto md:my-4 lg:mt-16
+}
+
+.destination__avgs-distance {
+ @apply text-secondary text-[14px] text-center md:text-sm
+}
+
+.destination__avgs-distance-value {
+ @apply block mb-8 text-white text-center m-auto text-[26px] md:text-[28px]
+}
+
+.destination__avgs-travel {
+ @apply text-secondary text-[14px] text-center md:text-sm
+}
+
+.destination__avgs-travel-value {
+ @apply block mb-8 text-[28px] text-white text-center m-auto md:text-[28px]
+}
 
 .destination {
  background: url('../../assets/imgs/destination/background-destination-mobile.jpg') center no-repeat;

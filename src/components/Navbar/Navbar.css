@@ -15,7 +15,7 @@
 }
 
 .navbar__line {
- @apply hidden mdLg:block mdLg:absolute mdLg:max-w-[60%] mdLg:bg-[#8f8f8f] mdLg:h-[1px] mdLg:-left-[55%] mdLg:right-0 mdLg:bottom-[2.25em]
+ @apply hidden xl:block xl:absolute xl:max-w-[60%] xl:bg-[#8f8f8f] xl:h-[1px] xl:-left-[50%] xl:right-0 xl:bottom-[2.25em]
 }
 
 .navbar__links {
