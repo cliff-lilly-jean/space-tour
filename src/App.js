@@ -8,7 +8,11 @@ import Moon from './components/Destination/Destinations/Moon';
 import Mars from './components/Destination/Destinations/Mars';
 import Europa from './components/Destination/Destinations/Europa';
 import Titan from './components/Destination/Destinations/Titan';
-import Navbar from './components/Navbar/Navbar';
+import Douglas from './components/Crew/CrewMembers/Douglas';
+import Mark from './components/Crew/CrewMembers/Mark';
+import Victor from './components/Crew/CrewMembers/Victor';
+import Anousheh from './components/Crew/CrewMembers/Anousheh';
+
 
 function App() {
  return (
@@ -25,7 +29,12 @@ function App() {
       <Route path="titan" element={<Titan />} />
      </Route>
      {/* Crew */}
-     <Route path="/crew" element={<Crew />} />
+     <Route path="/crew/*" element={<Crew />} >
+      <Route path="douglas" element={<Douglas />} />
+      <Route path="mark" element={<Mark />} />
+      <Route path="victor" element={<Victor />} />
+      <Route path="anousheh" element={<Anousheh />} />
+     </Route>
      {/* Technology */}
      <Route path="/technology" element={<Technology />} />
     </Routes>

@@ -1,11 +1,17 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
+import { Outlet } from 'react-router-dom';
+
+// CSS
+import './Crew.css';
 
 const Crew = () => {
  return (
   <div className='crew'>
-   <Navbar />
-   <p>Crew</p>
+   <div className="crew__container w-full">
+    <Navbar />
+    <Outlet />
+   </div>
   </div>
  );
 };
